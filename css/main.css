@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 body{
-  background: url(../img/bg2.jpg) center 0 no-repeat;
+  background: url(../img/bg2.jpg) center -80px no-repeat;
   background-color: #1f1c18;
 }
 header nav{
@@ -19,13 +19,13 @@ header nav{
     text-align: center;
     height: 145px;
     line-height: 145px;
-    text-align: center;
 }
 header nav ul{
     display: inline-block;
     vertical-align: middle;
     padding: 0;
     margin: 0;
+    margin-top: -4px;
 }
 header nav ul li{
     width: 216px;
@@ -68,23 +68,23 @@ header nav ul li a{
   width: 100%;
 }
 section#content{
-  margin-top: 230px;
+  margin-top: 80px;
 }
 section#content .page{
   width: 1001px;
-  height: 708px;
+  height: 588px;
   background: url(../img/strona_bg.png) 0 0 no-repeat;
   padding-top: 80px;
 }
 section#content .page .txt{
+  height: 572px;
   width: 550px;
-  height: 100%;
-  padding: 10px;
+  padding: 0 10px;
   overflow: hidden;
 }
 section#content #kelner{
   position: absolute;
-  right: -24px;
+  right: -46px;
   top: 150px;
 }
 footer{
