@@ -20,6 +20,12 @@ h1,h2,h3,h4{
     margin: 0;
     padding: 0;
 }
+.cbalink{
+    display: none; !important;
+}
+div[id^="bmone"]{
+    display: none !important;
+}
 .first_letter{
   font-size: 3em;
   font-family: "PromocyjaRegular";
