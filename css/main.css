@@ -16,6 +16,10 @@ body{
   font-family: "MinionPro-Medium";
   color: #434343;
 }
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
 .first_letter{
   font-size: 3em;
   font-family: "PromocyjaRegular";
@@ -84,7 +88,7 @@ section#content .page{
   padding-top: 80px;
 }
 section#content .page .txt{
-  height: 572px;
+  height: 100%;
   width: 550px;
   padding: 0 10px;
   overflow: hidden;
