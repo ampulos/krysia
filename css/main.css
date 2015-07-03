@@ -16,7 +16,7 @@ body{
   font-family: "MinionPro-Medium";
   color: #434343;
 }
-h1,h2,h3,h4{
+h1,h2,h3,h4,p,div{
     margin: 0;
     padding: 0;
 }
@@ -26,6 +26,33 @@ h1,h2,h3,h4{
 div[id^="bmone"]{
     display: none !important;
 }
+.fb-social{
+    position: absolute;
+    right: -250px;
+    top: 160px;
+    z-index: 5;
+    padding-left: 50px;
+    background: transparent url("../img/fb-bg.png") 0 0 no-repeat;
+    min-width:50px;
+    min-height: 160px;
+    transition: all linear 0.5s;
+}
+.fb-social:hover{
+    right: 0;
+}
+.fb-social .container{
+    background-color: #FFF;
+    width: 250px;
+    overflow: hidden;
+}
+
+.fb-social .fb_iframe_widget {
+    display: block !important;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 250px !important;
+}
+
 .first_letter{
   font-size: 3em;
   font-family: "PromocyjaRegular";
