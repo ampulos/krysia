@@ -92,15 +92,10 @@ header nav ul li:nth-child(2){
 header nav ul li:nth-child(3){
   background: url(../img/przycisk_bg_3.png) 0 0 no-repeat;
 }
-header nav ul li:nth-child(1):hover{
-  background: url(../img/przycisk_bg_1_hover.png) 0 0 no-repeat;
+header nav ul li:hover{
+  background-position: 0 -115px;
 }
-header nav ul li:nth-child(2):hover{
-  background: url(../img/przycisk_bg_2_hover.png) 0 0 no-repeat;
-}
-header nav ul li:nth-child(3):hover{
-  background: url(../img/przycisk_bg_3_hover.png) 0 0 no-repeat;
-}
+
 header nav ul li a{
   font-family: "PromocyjaRegular";
   font-size: 55px;
@@ -110,6 +105,9 @@ header nav ul li a{
   display: inline-block;
   height: 100%;
   width: 100%;
+}
+header #logo{
+  text-align: center;
 }
 section#content{
   margin-top: 80px;
