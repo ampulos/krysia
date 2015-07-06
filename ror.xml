@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://obslugakelnerzy.pl/</title>
+  <link>http://obslugakelnerzy.pl/</link>
+
+<item>
+     <link>http://obslugakelnerzy.pl/</link>
+     <title>Obsługa Kelnerzy</title>
+     <description>Firma zajmujaca się organizowaniem wesel pod kątem obsługi kelnerskiej oraz catering</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://obslugakelnerzy.pl/index.html</link>
+     <title>Obsługa Kelnerzy</title>
+     <description>Firma zajmujaca się organizowaniem wesel pod kątem obsługi kelnerskiej oraz catering</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://obslugakelnerzy.pl/animacje.html</link>
+     <title>Obsługa Kelnerzy Animacje</title>
+     <description>Firma zajmujaca się organizowaniem wesel pod kątem obsługi kelnerskiej oraz catering</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://obslugakelnerzy.pl/kontakt.html</link>
+     <title>Obsługa Kelnerzy Kontakt</title>
+     <description>Firma zajmujaca się organizowaniem wesel pod kątem obsługi kelnerskiej oraz catering</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
