@@ -20,6 +20,15 @@ h1,h2,h3,h4,p,div{
     margin: 0;
     padding: 0;
 }
+h3,h4{
+    padding: 6px 0;
+}
+ol,ul{
+    padding: 4px;
+    margin: 0;
+    border: 0;
+}
+
 .cbalink{
     display: none; !important;
 }
@@ -69,7 +78,7 @@ header nav ul{
     vertical-align: middle;
     padding: 0;
     margin: 0;
-    margin-top: -4px;
+    margin-top: -5px;
 }
 header nav ul li{
     width: 216px;
@@ -123,6 +132,7 @@ section#content .page .txt{
   width: 550px;
   padding: 0 10px;
   overflow: hidden;
+    text-shadow: 2px -2px 4px #a9a9a9;
 }
 section#content .page .txt .text{
   text-indent: 10px;
@@ -188,5 +198,32 @@ footer .footer_txt ul li.first{
 }
 footer .footer_txt ul li img{
   vertical-align: middle;
+}
+
+.page .txt .text p{
+    padding: 7px 0;
+}
+.page .txt .text li{
+    padding-left: 5px;
+    padding-top: 4px;
+    list-style-position: inside;
+}
+
+.colored-blue{
+    color: #3739ff;
+}
+.colored-red{
+    color: #ff2a21;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;;
+}
+a{
+    color: #434343;
+    text-decoration: underline;
+    outline: none;
 }
 
