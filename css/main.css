@@ -119,7 +119,7 @@ section#content .page{
   padding-top: 80px;
 }
 section#content .page .txt{
-  height: 100%;
+  height: 97%;
   width: 550px;
   padding: 0 10px;
   overflow: hidden;
@@ -132,6 +132,33 @@ section#content #kelner{
   right: -46px;
   top: 150px;
 }
+section#content .page nav{
+  position: absolute;
+  right: 400px;
+  top: 400px;
+  height: 70px;
+  z-index: 5;
+}
+#content .page nav span{
+  position: absolute;
+  left: 0;
+  top:0;
+  background: transparent url("../img/scroll.png") 0 0 no-repeat;
+  transition: all .2s ease-in;
+  width:30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+#content .page nav span:hover{
+  transform:scale(.9,.9);
+}
+#content .page nav span.down{
+  background-position: 0 -32px;
+  top: 40px;
+}
+
 footer{
   margin-bottom: 20px;
 }
