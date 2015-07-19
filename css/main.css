@@ -146,17 +146,17 @@ section#content .page nav{
   position: absolute;
   right: 400px;
   top: 400px;
-  height: 70px;
+  height: 90px;
   z-index: 5;
 }
 #content .page nav span{
   position: absolute;
   left: 0;
   top:0;
-  background: transparent url("../img/scroll.png") 0 0 no-repeat;
+  background: transparent url("../img/scroll2.png") 0 0 no-repeat;
   transition: all .2s ease-in;
-  width:30px;
-  height: 30px;
+  width:40px;
+  height: 40px;
   overflow: hidden;
   cursor: pointer;
   
@@ -165,8 +165,8 @@ section#content .page nav{
   transform:scale(.9,.9);
 }
 #content .page nav span.down{
-  background-position: 0 -32px;
-  top: 40px;
+  background-position: 0 -41px;
+  top: 50px;
 }
 
 footer{
