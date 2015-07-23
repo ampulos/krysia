@@ -101,7 +101,7 @@ header nav ul li:nth-child(2){
 header nav ul li:nth-child(3){
   background: url(../img/przycisk_bg_3.png) 0 0 no-repeat;
 }
-header nav ul li:hover{
+header nav ul li:hover,header nav ul li.active{
   background-position: 0 -115px;
 }
 
