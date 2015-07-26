@@ -11,11 +11,41 @@
     margin: 0 auto;
 }
 body{
-  background: url(../img/bg2.jpg) center -80px no-repeat;
-  background-color: #1f1c18;
+  
+  /*background-color: #1f1c18;*/
   font-family: "MinionPro-Medium";
   color: #434343;
 }
+
+.main{
+  /*background: transparent url(../img/bg2.jpg) 0 0 no-repeat;*/
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
+  overflow: hidden;
+}
+.border-left,.border-right{
+  background: transparent 0 0 repeat-y;
+  position: absolute;
+  z-index: 3;
+  padding: 0;border: 0;margin: 0;
+  width: 10px;height: 100%;
+  top:0;
+}
+.border-left{
+  background-image: url(../img/border-left.png) ;
+  left:0;
+}
+.border-right{
+  background-image: url(../img/border-right.png) ;
+  right:0;
+}
+
+header,section,footer{
+  position: relative;
+  z-index: 2;
+}
+
 h1,h2,h3,h4,p,div{
     margin: 0;
     padding: 0;
@@ -30,7 +60,7 @@ ol,ul{
 }
 
 .cbalink{
-    display: none; !important;
+    display: none !important;
 }
 div[id^="bmone"]{
     display: none !important;
@@ -225,5 +255,36 @@ a{
     color: #434343;
     text-decoration: underline;
     outline: none;
+}
+
+/** Galeria */
+section#content .page .txt .text .gallery * {
+  text-indent: 0;
+}
+
+.gallery{
+  position: relative;
+  overflow: hidden;
+}
+.gallery a{
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+  padding: 0;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  text-align: center;
+}
+.gallery a img {
+  display: inline;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  border: 2px solid #FFF;
+  padding: 0;margin: 0;
 }
 

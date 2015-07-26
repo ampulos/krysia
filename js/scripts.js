@@ -1,5 +1,6 @@
 $(document).ready(function(){
     scroll_txt();
+    gallery();
 });
 
 function scroll_txt() {
@@ -12,4 +13,14 @@ function scroll_txt() {
     $('span.down',container).on('click',function(){
         txt.scrollTo('+=500px',400,{'axis':'y'});
     });
+}
+
+function gallery(){
+    var gallery = $('div.gallery');
+    
+    $('.click').click(function(){
+        $('a:first',gallery).click();
+    });
+      
+    gallery.photobox('a');
 }
