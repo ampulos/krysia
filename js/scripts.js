@@ -18,9 +18,12 @@ function scroll_txt() {
 function gallery(){
     var gallery = $('div.gallery');
     
-    $('.click').click(function(){
+    $('.show-gallery').click(function(ev){
+        ev.preventDefault();
         $('a:first',gallery).click();
     });
       
-    gallery.photobox('a');
+    gallery.photobox('a', {thumbs:false});
+    
+    return false;
 }

@@ -97,6 +97,32 @@ div[id^="bmone"]{
   font-family: "PromocyjaRegular";
   font-weight: bold;
 }
+header .top {
+  position: relative;
+  height: 53px;
+  overflow: hidden;
+  padding: 8px 20px;
+}
+header .top .btn{
+  display: block;
+  text-indent: -500em;
+  height: 53px;
+  transition: all .2s;
+}
+header .top .btn:hover{
+  transform: scale(.9,.9);
+}
+header .top .left-btn{
+  width: 194px;
+  float: left;
+  background: transparent url(../img/logo_male.png) 0 0 no-repeat;
+  
+}
+header .top .right-btn{
+  width: 116px;
+  float: right;
+  background: transparent url(../img/gallery-btn.png) 0 0 no-repeat;
+}
 header nav{
     background: url(../img/pasek_gora.png) 0 0 repeat-x;
     text-align: center;
@@ -200,7 +226,7 @@ section#content .page nav{
 }
 
 footer{
-  margin-bottom: 20px;
+  position: relative;
 }
 footer .footer_txt{
   height: 54px;
@@ -258,33 +284,9 @@ a{
 }
 
 /** Galeria */
-section#content .page .txt .text .gallery * {
-  text-indent: 0;
-}
 
 .gallery{
-  position: relative;
-  overflow: hidden;
+  display: none;
 }
-.gallery a{
-  position: relative;
-  overflow: hidden;
-  margin: 2px;
-  padding: 0;
-  width: 200px;
-  height: 200px;
-  line-height: 200px;
-  white-space: nowrap;
-  display: block;
-  float: left;
-  text-align: center;
-}
-.gallery a img {
-  display: inline;
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
-  border: 2px solid #FFF;
-  padding: 0;margin: 0;
-}
+
 
