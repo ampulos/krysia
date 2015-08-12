@@ -17,6 +17,7 @@ function scroll_txt() {
 
 function gallery(){
     var gallery = $('div.gallery');
+    var txt_gallery = $('div.text-gallery');
     
     $('.show-gallery').click(function(ev){
         ev.preventDefault();
@@ -24,6 +25,7 @@ function gallery(){
     });
       
     gallery.photobox('a', {thumbs:false});
+    txt_gallery.photobox('a');
     
     return false;
 }

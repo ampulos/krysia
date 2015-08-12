@@ -152,9 +152,12 @@ header nav ul li:nth-child(1){
   background: url(../img/przycisk_bg_1.png) 0 0 no-repeat;
 }
 header nav ul li:nth-child(2){
-  background: url(../img/przycisk_bg_2.png) 0 0 no-repeat;
+  background: url(../img/przycisk_bg_4.png) 0 0 no-repeat;
 }
 header nav ul li:nth-child(3){
+  background: url(../img/przycisk_bg_2.png) 0 0 no-repeat;
+}
+header nav ul li:nth-child(4){
   background: url(../img/przycisk_bg_3.png) 0 0 no-repeat;
 }
 header nav ul li:hover,header nav ul li.active{
@@ -288,5 +291,26 @@ a{
 .gallery{
   display: none;
 }
+
+.text-gallery{
+    position: relative;
+}
+.text-gallery a {
+    text-indent: 0;
+}
+.text-gallery img {
+    max-width: 160px;
+    height: auto;
+    outline: solid #646464 2px;
+    display: block;
+    text-indent: 0;
+    float: left;
+    margin: 14px 8px;
+    transition: all .2s ease-in;
+}
+.text-gallery img:hover{
+    outline-width: 6px;
+}
+
 
 
